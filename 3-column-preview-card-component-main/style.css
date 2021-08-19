@@ -1,0 +1,77 @@
+body{
+    margin: 0;
+}
+.container{
+    margin: 15% auto;
+    width: 70%;
+    border-radius: 10px;
+    display: flex;
+    height: auto;
+}
+.sedans{
+    width: 33.3%;
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 10px 0 0 10px;
+}
+.suvs{
+    width: 33.3%;
+    background: hsl(184, 100%, 22%);
+
+}
+.luxury{
+    width: 33.3%;
+    background: hsl(179, 100%, 13%);
+    border-radius: 0 10px 10px 0;
+}
+.car-image{
+    margin: 50px 0 40px 50px;
+}
+.title{
+    margin: 0 0 30px 50px;
+    color: hsl(0, 0%, 95%);
+    font-family:'Big Shoulders Display', cursive;
+}
+.paragraph{
+    margin: 0 60px 0 50px;
+    font-size: 0.9375rem;
+    line-height: 1.75;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca', sans-serif;
+    letter-spacing: 0.5px;
+    height: 100px;
+}
+.buttons{
+    margin: 125px 100px 60px 50px;
+    padding: 20px 20px 20px 20px;
+}
+.button-sedans{
+    background: hsl(0, 0%, 95%);
+    
+    text-align: center;
+    border-radius: 50px;
+    font-family: 'Lexend Deca', sans-serif;
+    color: hsl(31, 77%, 52%);
+}
+.button-suvs{
+    background: hsl(0, 0%, 95%);
+    
+    text-align: center;
+    border-radius: 50px;
+    font-family: 'Lexend Deca', sans-serif;
+    color: hsl(184, 100%, 22%);
+}
+.button-luxury{
+        background: hsl(0, 0%, 95%);
+
+        text-align: center;
+        border-radius: 50px;
+        font-family: 'Lexend Deca', sans-serif;
+        color:  hsl(179, 100%, 13%);
+}
+
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+.attribution a {
+    color: hsl(228, 45%, 44%); 
+}
